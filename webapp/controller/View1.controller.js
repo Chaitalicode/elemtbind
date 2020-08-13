@@ -18,7 +18,7 @@ sap.ui.define([
 			var a = oEvent.getParameter("listItem").getBindingContext().getPath();
 			var s = this.getView().byId("listId");
 			s.bindElement(a);
-			MessageToast.show("Hi Usha");
+			sap.m.MessageToast.show("Hi chaitali");
 		}
 	});
 });
